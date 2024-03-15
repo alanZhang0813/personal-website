@@ -1,0 +1,37 @@
+.Homepage {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Homepage-video {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  /*height: 100vh;*/
+  z-index: -1;
+}
+
+@font-face {
+  font-family: logoFont;
+  src: url("../../public/FantaisieArtistique.ttf");
+}
+
+.title {
+  font-size: calc(10px + 10vmin);
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-family: logoFont, serif;
+  align-self: center;
+}
+
+.nav-bar {
+  float: right;
+}
+.nav-bar > button {
+  margin: 10px;
+}

@@ -1,0 +1,9 @@
+.tab {
+    color: aliceblue;
+}
+.socials > a {
+    padding: 6px;
+    color: aliceblue;
+    background-color: transparent;
+    float: right;
+}
