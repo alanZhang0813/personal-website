@@ -6,9 +6,9 @@ import '../styles.css';
 function HomePage() {
   return (
       <div className={"page"} style={{backgroundColor: "transparent"}}>
-          <video autoPlay={true} loop={true} muted={true} className={"Homepage-video"}>
+          {/* <video autoPlay={true} loop={true} muted={true} className={"Homepage-video"}>
               <source src={"/background.mp4"} type={'video/mp4'}/>
-          </video>
+          </video> */}
           <Nav/>
           <div className={"Homepage"}>
               <div className={"title"}>

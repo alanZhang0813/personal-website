@@ -7,7 +7,9 @@ function AboutMe() {
         <div className={"page"}>
             <Nav/>
             <div className={"d-flex"} style={{margin: "5px 5px"}}>
-                <div className={"name-card"}></div>
+                <div className={"name-card"}>
+
+                </div>
 
                 <div className={"d-flex flex-row"}>
                     <div className={"d-flex flex-column"}>
