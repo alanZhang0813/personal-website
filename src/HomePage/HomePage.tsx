@@ -6,13 +6,13 @@ import '../styles.css';
 function HomePage() {
   return (
       <div className={"page"} style={{backgroundColor: "transparent"}}>
-          {/* <video autoPlay={true} loop={true} muted={true} className={"Homepage-video"}>
-              <source src={"/background.mp4"} type={'video/mp4'}/>
-          </video> */}
           <Nav/>
           <div className={"Homepage"}>
-              <div className={"title"}>
-                  Hey there! I'm Alan Zhang:<br/> aspiring software developer
+              <div className={"title-header"}>
+                Hey there! My name is Alan Zhang
+              </div>
+              <div className={"title-sub"}>
+                Aspiring software developer who is sometimes good at chess
               </div>
           </div>
       </div>

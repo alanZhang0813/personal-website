@@ -7,6 +7,7 @@ import Contact from "./Contact/Contact";
 import Scrapbook from "./Scrapbook/Scrapbook";
 import ReadingList from "./ReadingList/ReadingList";
 import ChallengeMe from "./ChallengeMe/ChallengeMe";
+import MyGames from "./My Games/MyGames";
 
 function App() {
     return(
@@ -20,6 +21,7 @@ function App() {
                     <Route path={"/Scrapbook"} element={<Scrapbook/>}/>
                     <Route path={"/ReadingList"} element={<ReadingList/>}/>
                     <Route path={"/ChallengeMe"} element={<ChallengeMe/>}/>
+                    <Route path={"/MyGames"} element={<MyGames/>}/>
                 </Routes>
             </div>
         </HashRouter>

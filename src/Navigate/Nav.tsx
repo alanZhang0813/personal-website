@@ -31,6 +31,7 @@ function Nav() {
                 <Link to="/Scrapbook" className={`nav-link ${pathname.includes("Scrapbook") ? "active" : ""}`}>Scrapbook</Link>
                 <Link to="/ReadingList" className={`nav-link ${pathname.includes("ReadingList") ? "active" : ""}`}>Reading List</Link>
                 <Link to="/ChallengeMe" className={`nav-link ${pathname.includes("ChallengeMe") ? "active" : ""}`}>Challenge Me!</Link>
+                <Link to="/MyGames" className={`nav-link ${pathname.includes("MyGames") ? "active" : ""}`}>My Games</Link>
             </div>
         </nav>
     );
