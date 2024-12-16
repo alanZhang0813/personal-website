@@ -1,13 +1,13 @@
 import {HashRouter} from "react-router-dom";
 import {Navigate, Route, Routes} from "react-router";
-import AboutMe from "./AboutMe/AboutMe";
+import AboutMe from "./components/AboutMe/AboutMe";
 import React from "react";
-import HomePage from "./HomePage/HomePage";
-import Contact from "./Contact/Contact";
-import Scrapbook from "./Scrapbook/Scrapbook";
-import ReadingList from "./ReadingList/ReadingList";
-import ChallengeMe from "./ChallengeMe/ChallengeMe";
-import MyGames from "./My Games/MyGames";
+import HomePage from "./components/HomePage/HomePage";
+import Contact from "./components/Contact/Contact";
+import Scrapbook from "./components/Scrapbook/Scrapbook";
+import ReadingList from "./components/ReadingList/ReadingList";
+import ChallengeMe from "./components/ChallengeMe/ChallengeMe";
+import MyGames from "./components/My Games/MyGames";
 
 function App() {
     return(

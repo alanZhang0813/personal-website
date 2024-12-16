@@ -1,0 +1,8 @@
+.main-page {
+    text-align: start;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(52, 61, 91);
+}

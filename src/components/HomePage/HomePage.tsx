@@ -1,7 +1,7 @@
 import React from 'react';
 import './HomePage.css';
+import '../../styles.css'
 import Nav from "../Navigate/Nav";
-import '../styles.css';
 
 function HomePage() {
   return (

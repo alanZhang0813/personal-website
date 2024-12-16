@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: logoFont;
-  src: url("../../public/FantaisieArtistique.ttf");
+  src: url("../../../public/FantaisieArtistique.ttf");
 }
 
 .title-header {
